@@ -54,6 +54,7 @@ body {
 }
 
 .right {
+    display: block;
     margin-top: -33%;
     margin-left: 54%;
     margin-right: 3%;
@@ -404,6 +405,7 @@ section .set div:nth-child(24) {
 
     .card {
         height: 300px;
+        /* height: 950px; */
     }
 
     .thumbnail {
@@ -426,32 +428,21 @@ section .set div:nth-child(24) {
 
     .right {
         display: none;
-        /* margin-left: 4%;
-      margin-right: 3%; */
+        margin: 3% 10%;
     }
 
     h1 {
-        /* padding: 11%; */
-        padding-bottom: 1%;
-        font-size: 3.3rem;
-        color: #162252;
+        margin-top: 18%;
+        font-size: 1.7rem;
     }
 
     .main {
-        padding-top: 8px;
-        /* margin-right: 6px; */
-        text-align: left;
-        font-size: 2.2rem;
-        color: #26466D;
+        margin-top: 2%;
+        font-size: 1.4rem;
     }
 
     p {
-        text-align: justify;
-        /* padding: 11%; */
-        padding-top: 1%;
-        font-size: 1.95rem;
-        line-height: 150%;
-        color: #4b4b4b;
+        font-size: 1rem;
     }
 
     .fab {
