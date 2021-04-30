@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="final.css">
+  <link rel="stylesheet" href="fin.css">
   <title>Hall of Fame</title>
 </head>
 
@@ -47,19 +47,6 @@
       <div>
         <image src="G7.png" height=150px />
       </div>
-      <!-- <div><image src="G7.png" height=250px/></div> -->
-      <!-- <div>
-        <image src="G7.png" height=80px />
-      </div>
-      <div><image src="G7.png" height=150px/></div>
-      <div>
-        <image src="G7.png" height=100px />
-      </div>
-      <div>
-        <image src="G7.png" height=200px />
-      </div> -->
-      <!-- <div><image src="G7.png" height=70px/></div>
-      <div><image src="G7.png" height=250px/></div> -->
       <div>
         <image src="G7.png" height=80px />
       </div>
@@ -170,13 +157,13 @@
       var x = document.getElementsByClassName('right');
       var x1 = document.getElementsByClassName('card');
       console.log(x1);
-      if (x[0].style.display === "none") {
-        x1[0].style.height = "950px";
-        x[0].style.display = "block";
-      }
-      else {
+      if (x[0].style.display === "block") {
         x1[0].style.height = "300px";
         x[0].style.display = "none"
+      }
+      else {
+        x1[0].style.height = "950px";
+        x[0].style.display = "block";
       }
     }
   </script>
