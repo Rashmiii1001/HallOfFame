@@ -372,30 +372,70 @@ section .set div:nth-child(24) {
 
 /* Media Queries */
 
-@media (max-width: 1000px) {
+@media (max-width: 1203px) {
+    .card{
+      height: 465px;
+    }
+    .fab {
+      bottom: 45px;
+      font-size: 50px;
+    }
+    .fab2{
+      padding-left: 8%;
+    }
+    .fab4{
+      padding-left: 35%;
+    }
     .circle-bg {
         width: 43%;
         margin-right: -30%;
     }
-
     .circle {
         box-shadow: 0 0 20px #04d9ff;
         inset: 0 0 20px #04d9ff;
         border: 12px solid #fff;
     }
+    .thumbnail{
+      top: 35px;
+    }
 }
 
-@media (max-width: 770px) {
-    .circle-bg {
-        width: 42%;
-        margin-right: -30%;
-    }
+@media (max-width: 990px){
+  .card{
+    width: 115%;
+    margin-left: -7%;
+  }
+  h1{
+    font-size: 1.9rem;
+  }
+}
 
-    .circle {
-        box-shadow: 0 0 25px #04d9ff;
-        inset: 0 0 25px #04d9ff;
-        border: 12px solid #fff;
-    }
+@media (max-width: 800px) {
+  .card{
+    height: 465px;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .fab {
+    bottom: 55px;
+    font-size: 55px;
+  }
+  .main{
+    font-size: 1.1rem;
+  }
+  p{
+    font-size: .916rem;
+  }
+  .circle-bg {
+      width: 42%;
+      margin-right: -30%;
+  }
+
+  .circle {
+      box-shadow: 0 0 25px #04d9ff;
+      inset: 0 0 25px #04d9ff;
+      border: 12px solid #fff;
+  }
 }
 
 @media (max-width: 480px) {
@@ -405,7 +445,7 @@ section .set div:nth-child(24) {
 
     .card {
         height: 300px;
-        /* height: 950px; */
+        transition: all 0.2s linear;
     }
 
     .thumbnail {
@@ -421,8 +461,8 @@ section .set div:nth-child(24) {
     }
 
     .iframe-container iframe {
-        width: 99.5%;
-        height: 89.5%;
+        width: 100%;
+        height: 79%;
     }
 
 
@@ -447,6 +487,7 @@ section .set div:nth-child(24) {
 
     .fab {
         font-size: 300%;
+        bottom: 25px;
     }
 
     .fab1 {
@@ -459,7 +500,7 @@ section .set div:nth-child(24) {
     }
 
     .fab2 {
-        margin-left: 18%;
+        margin-left: 20%;
     }
 
     .fab3 {
@@ -467,7 +508,7 @@ section .set div:nth-child(24) {
     }
 
     .fab4 {
-        margin-left: 44%;
+        margin-left: 38%;
     }
 
 
